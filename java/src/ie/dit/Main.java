@@ -28,16 +28,30 @@ public class Main
         processing.core.PApplet.runSketch( a, new Arrays());
 		
 	}
+<<<<<<< HEAD
 	public void starmap()
 	{
 		String[] a = {"MAIN"};
 		processing.core.PApplet.runSketch(a,new StarMap());
 	}
+=======
+>>>>>>> d85640236ecd5b7cc0c4b1632cfc8cc97e76eb0c
 	
+	public void starMap()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new StarMap());
+		
+	}
+
 	public static void main(String[] args)
 	{
 		Main main = new Main();
+<<<<<<< HEAD
 		main.arrays();	
 			
+=======
+		main.starMap();			
+>>>>>>> d85640236ecd5b7cc0c4b1632cfc8cc97e76eb0c
 	}
 }
